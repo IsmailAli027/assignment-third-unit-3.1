@@ -8,11 +8,12 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
+let foodArray = ['lasagna', 'pizza', 'alfredo', 'cereal'];
 
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-
+console.log('favorite foods are:', foodArray);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -22,7 +23,7 @@ console.log('--- 2. Length of an array ---');
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log('Number of favorite foods', foodArray.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -31,22 +32,21 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-
+console.log('Last animal is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-
-
+console.log('Last animal is', animalArray [animalArray.length-1]);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
 animalArray.push('penguin');
-console.log('Added an animal to end,', animalArray);
+
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 
